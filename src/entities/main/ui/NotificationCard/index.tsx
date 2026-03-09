@@ -114,13 +114,13 @@ export default function NotificationCard({
           </div>
           <div className="flex gap-2">
             <Button
-              onClick={() => handleSignupClick(data.id.toString())}
+              onClick={() => handleSignupClick(data.id)}
               className={cn('bg-main-500 text-white')}
             >
               승인
             </Button>
             <Button
-              onClick={() => refuseNotifications(data.id.toString())}
+              onClick={() => refuseNotifications(data.id)}
               className={cn('bg-error-500 text-white')}
             >
               거절
