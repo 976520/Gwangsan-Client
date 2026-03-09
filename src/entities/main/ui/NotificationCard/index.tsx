@@ -101,7 +101,7 @@ export default function NotificationCard({
         <div
           className={cn('flex w-full items-center justify-between px-3 py-6')}
         >
-          <div className="flex flex-col gap-[2px]">
+          <div className="flex flex-col gap-0.5">
             <div className={cn('flex gap-6')}>
               <Badge variant="outline" className={cn('px-4')}>
                 회원가입
